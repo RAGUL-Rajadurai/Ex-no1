@@ -1,3 +1,4 @@
+
 # Arithmetic-operation-using-8086
 # 8086 Assembly Language Programs for Arithmetic Operations
 
@@ -28,24 +29,25 @@ To write and execute Assembly Language Programs to perform arithmetic operations
 
 
 ## FLOW CHART
-<img width="707" height="1024" alt="image" src="https://github.com/user-attachments/assets/b5a7062d-e294-47cd-9683-a40de25e82de" />
+<img width="507" height="824" alt="image" src="https://github.com/user-attachments/assets/b5a7062d-e294-47cd-9683-a40de25e82de" />
 
 
 #### Program
 
 ```asm
 CODE SEGMENT
-ASSUME CS:CODE, DS:CODE
+ASSUME CS: CODE, DS: CODE
 ORG 1000H
+MOV SI,2000H
 MOV CL,00H
-MOV AX,1234H
-MOV BX,1234H
+MOV AX,[SI]
+MOV BX,[SI+02H]
 ADD AX,BX
 JNC L1
 INC CL
-L1:MOV SI,1200H
-MOV [SI],AX
-MOV [SI+2],CL
+L1:
+MOV [SI+04H],AX
+MOV [SI+06H],CL
 MOV AH,4CH
 INT 21H
 CODE ENDS
@@ -56,17 +58,20 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|       1200🔢       01         12
-
-|         1200                    |
+| 2000:34                 | 2000:55                  |
+| 2001:12                 | 2005:55                  |
+| 2002:21                 | 2006:00                  |
+| 2003:43                 |                          |
 
 #### Manual Calculations
 
-(Add your calculation here)
+<img src="https://github.com/user-attachments/assets/22d0dde6-4892-41c9-8666-201fa546f89f" width="300">
 
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+<img width="562" height="333" alt="Screenshot 2025-09-21 143403" src="https://github.com/user-attachments/assets/b3f2e067-6fa3-4685-8c5a-6ddbcabe8f58" />
+
 
 ## 2. SUBTRACTION
 
@@ -109,16 +114,21 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+| 2000:45                 | 2000:04                  |
+| 2001:A4                 | 2005:72                  |
+| 2002:41                 | 2006:00                  |
+| 2003:32                 |                          |                 
 
 #### Manual Calculations
 
-(Add your calculation here)
+<img src="https://github.com/user-attachments/assets/9bb2ce6e-8393-4910-83cc-86ce0669bc9b" width="300" height="500">
 
 ---
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="535" height="326" alt="Screenshot 2025-09-21 144020" src="https://github.com/user-attachments/assets/a9b6c1f4-8504-4b62-a46b-45f2c9f73e7c" />
+
 
 ## 3. MULTIPLICATION
 
@@ -131,7 +141,7 @@ END
 
 ##FLOWCHART
 
-<img width="569" height="906" alt="image" src="https://github.com/user-attachments/assets/88be88ff-2896-4a88-b73d-84ccffd2fcf9" />
+<img width="569" height="706" alt="image" src="https://github.com/user-attachments/assets/88be88ff-2896-4a88-b73d-84ccffd2fcf9" />
 
 
 
@@ -158,15 +168,21 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+| 2000:22                 | 2000:A8                  |
+| 2001:21                 | 2005:CC                  |
+| 2002:14                 | 2006:57                  |
+| 2003:21                 | 2007:02                  |                 
+
 
 #### Manual Calculations
 
-(Add your calculation here)
+<img src="https://github.com/user-attachments/assets/6fd6893e-c61e-44b1-84ad-8f233dc40885" width="300">
 
 ---
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="627" height="444" alt="Screenshot 2025-09-21 145243" src="https://github.com/user-attachments/assets/ca85eb30-b06c-4500-a468-041e1549c46c" />
+
 
 ## 4. DIVISION
 
@@ -177,7 +193,7 @@ END
 3. Store result.
 
    ## FLOWCHART
-<img width="1065" height="802" alt="image" src="https://github.com/user-attachments/assets/25b4a483-0d42-494b-8639-1af3ea17191b" />
+<img width="565" height="802" alt="image" src="https://github.com/user-attachments/assets/25b4a483-0d42-494b-8639-1af3ea17191b" />
 
 
 #### Program
@@ -203,19 +219,22 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+| 2000:33                 | 2000:03                  |
+| 2001:33                 | 2005:00                  |
+| 2002:11                 | 2006:00                  |
+| 2003:11                 | 2007:00                  |                                                                                             
 
 #### Manual Calculations
 
-(Add your calculation here)
+<img src="https://github.com/user-attachments/assets/f58946bb-9637-47c6-b644-21a5470f45b7" width="500">
 
 ---
 ## OUTPUT FROM MASM SOFTWARE
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8a81aa2c-0684-457f-854a-608cdc48db6d" />
+<img width="645" height="430" alt="Screenshot 2025-09-21 150219" src="https://github.com/user-attachments/assets/8de04198-3de3-48f1-9c44-7554b86d1ef3" />
+
 
 
 
 ## RESULT
 
 Thus, the Assembly Language Programs for 8086 to perform arithmetic operations (Addition, Subtraction, Multiplication, and Division) using both direct and indirect methods were successfully written and executed using MASM.
-
