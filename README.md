@@ -61,12 +61,13 @@ END
 |         1200                    |
 
 #### Manual Calculations
-
-(Add your calculation here)
+<img width="1280" height="578" alt="492010962-22d0dde6-4892-41c9-8666-201fa546f89f" src="https://github.com/user-attachments/assets/530bba54-4bcb-4286-9d80-2562f290fa7e" />
 
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+<img width="662" height="433" alt="492011000-b3f2e067-6fa3-4685-8c5a-6ddbcabe8f58" src="https://github.com/user-attachments/assets/07c9c3c3-8326-4b13-9948-e865b1168649" />
+
 
 ## 2. SUBTRACTION
 
@@ -112,13 +113,15 @@ END
 |                         |                          |
 
 #### Manual Calculations
+<img width="578" height="1280" alt="492011031-9bb2ce6e-8393-4910-83cc-86ce0669bc9b" src="https://github.com/user-attachments/assets/6f78d0e9-fe3f-485b-b389-5aa0584f033b" />
 
-(Add your calculation here)
 
 ---
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="635" height="426" alt="492011107-a9b6c1f4-8504-4b62-a46b-45f2c9f73e7c" src="https://github.com/user-attachments/assets/eb9bdb73-d786-4863-8797-b9144317eb9a" />
+
 
 ## 3. MULTIPLICATION
 
@@ -162,11 +165,12 @@ END
 
 #### Manual Calculations
 
-(Add your calculation here)
-
+<img width="1280" height="578" alt="492011213-6fd6893e-c61e-44b1-84ad-8f233dc40885" src="https://github.com/user-attachments/assets/85065e08-7d0b-476f-9a48-1982b75463db" />
 ---
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="627" height="444" alt="492011250-ca85eb30-b06c-4500-a468-041e1549c46c" src="https://github.com/user-attachments/assets/60eb3015-1b6e-4cf9-b501-89a6f555b653" />
+
 
 ## 4. DIVISION
 
@@ -207,10 +211,10 @@ END
 
 #### Manual Calculations
 
-(Add your calculation here)
-
+<img width="1280" height="578" alt="492011258-f58946bb-9637-47c6-b644-21a5470f45b7" src="https://github.com/user-attachments/assets/c729605c-e23a-4016-bcea-ea5d40652fab" />
 ---
 ## OUTPUT FROM MASM SOFTWARE
+<img width="645" height="430" alt="492011294-8de04198-3de3-48f1-9c44-7554b86d1ef3" src="https://github.com/user-attachments/assets/32d625dc-4cca-4224-9624-de9a583418ee" />
 
 
 
